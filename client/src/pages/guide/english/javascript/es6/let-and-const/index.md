@@ -37,6 +37,7 @@ const a = 50;
 a = 60; // shows error. You cannot change the value of const.
 const b = "Constant variable";
 b = "Assigning new value"; // shows error.
+const c; // shows error. You must always declare a const with an initial value.
 ```
 
 Consider another example.
